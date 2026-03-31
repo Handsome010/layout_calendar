@@ -18,7 +18,7 @@
     border: var.$cell-border solid var.$border-color;
     text-align: center;
     box-sizing: border-box;
-    transition: transform 0.5s;
+    transition: all 0.5s;
     &:hover {
       cursor: pointer;
       background-color: var.$hover-color;
@@ -30,7 +30,7 @@
         content: '#{$i}';
         font-family: Arial, sans-serif;
         font-size: 30px;
-        line-height: var.$cell-size - var.$cell-border;
+        line-height: 98px;
       }
     }
   }
